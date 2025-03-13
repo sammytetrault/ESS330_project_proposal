@@ -1,8 +1,12 @@
 ---
 title: ESS 330 Project Proposals
 authors:
-  - name: Norah Jones
-    affiliation: The University
+  - name: Sammy Tetrault
+    affiliation: CSU
+    roles: writing
+    corresponding: true
+  - name: Zoe Gagalis
+    affiliation: CSU
     roles: writing
     corresponding: true
 bibliography: references.bib
@@ -10,3 +14,4 @@ bibliography: references.bib
 
 ## Section
 This is a simple placeholder for the manuscript's main document [@knuth84].
+
