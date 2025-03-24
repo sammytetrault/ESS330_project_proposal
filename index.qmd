@@ -3,15 +3,52 @@ title: ESS 330 Project Proposals
 authors:
   - name: Sammy Tetrault
     affiliation: CSU
-    roles: writing
+    roles: writing and coding
     corresponding: true
   - name: Zoe Gagalis
+    affiliation: CSU
+    roles: writing
+    corresponding: true
+  - name: Zoe Ellis
     affiliation: CSU
     roles: writing
     corresponding: true
 bibliography: references.bib
 ---
 
-## Section
-This is a simple placeholder for the manuscript's main document [@knuth84].
+### Directions
+1) Title: Give a short, informative title describing the project.
 
+2) Justification: Write a short paragraph (~150 words) explaining the significance of the project with supporting background information. You must include at least two references (with proper APA citation format) that back up your reasoning for significance. (10 points)
+
+3) Research objective/question/hypothesis: Include the specific objective that you aim to achieve in this study and a testable hypothesis, model or analysis you want to carry out. (5 points)
+
+4) Proposed Methods: Briefly (short paragraph) describe how you plan to carry out your study. Specify the datasets and variables available and needed (try to provide links/citations for your datasets, or a notion of where you will get your data). Each project should integrate at least two data sources! Additionally, describe the scope of your study (e.g., spatial and temporal scale) and the statistical tests you will use to test your hypothesis. (10 points)
+
+5) Expected Outcomes: Based on your research question, describe what you expect to find in the results and the reason such an outcome is important. (5 points)
+
+### Proposal 1 - Ground Level Ozone Trends in Colorado
+##### Sammy Tetrault
+Justification:
+
+Research objective:
+Proposed Methods:
+Expected outcome:
+
+### Proposal 2 - Zebra Mussel Population Changes in Lake Superior
+##### Sammy Tetrault
+This is our next section [@groundozone]
+
+### Proposal 3 - Huron River Water Pollution Trends
+##### Zoe Gagalis
+
+### Proposal 4 - Urban Development LULC Trends in Colorado
+##### Zoe Gagalis
+
+### Proposal 5 - Biodiversity Trends After Wolf Reintroduction in Yellowstone
+##### Zoe Ellis
+
+### Proposal 6 - White Nose Syndrome in Bats Trends in the US
+##### Zoe Ellis
+
+## Bibliography
