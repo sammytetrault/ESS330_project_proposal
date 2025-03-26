@@ -19,9 +19,9 @@ bibliography: references.bib
 
 ### Proposal 1 - Ground Level Ozone Trends in Colorado
 ##### **Sammy Tetrault**
-**Justification**: Section 108 and 109 of the Clean Air Act mandates the creation and implementation of National Ambient Air Quality Standards (NAAQS), which regulate key pollutants to specified acceptable levels. NAAQS is managed by the Environmental Protection Agency (EPA) [@mcclellan]. If a state does not meet these Standards, it is said to be in non-attainment for that Standard. Currently, Colorado is in non-attainment for ozone due to high ozone levels in the Denver Metro Area and in the northern Front Range. Despite Colorado's attempts to implement effective State Implementation Plans (SIPs), the state is still in non-attainment. This is due to a few overarching reasons: 1) invalid emissions inventories, 2) invalid models, and 3) poor organizational structure. Reasons 1 & 2 have resulted in proposed emissions limits to reach attainment that do not achieve this goal [@ozonemanagement]. This highlights a need for new analyses of ozone levels and new models that capture true ozone trends.
+**Justification**: Section 108 and 109 of the Clean Air Act mandate the creation and implementation of National Ambient Air Quality Standards (NAAQS), which regulate key pollutants to specified acceptable levels. NAAQS is managed by the Environmental Protection Agency (EPA) [@mcclellan]. If a state does not meet a Standard, it is said to be in non-attainment for that Standard. Currently, Colorado is in non-attainment for ozone due to high ozone levels in the Denver Metro Area and in the northern Front Range. Despite Colorado's attempts to implement effective State Implementation Plans (SIPs), the state is still in non-attainment. This is due to a few reasons: 1) invalid emissions inventories, 2) invalid models, and 3) poor organizational structure. Reasons 1 & 2 have resulted in proposed emissions limits to reach attainment that do not achieve this goal [@ozonemanagement]. This highlights a need for new analyses of ozone levels and new models that capture true ozone trends.
 
-**Research objective**: This proposal aims to address reasons 1 & 2 listed in the justification that have caused Colorado ozone SIPs to be ineffective. We aim to produce a model of ozone over time that gives a better reflection of uncertainties.
+**Research objective**: This proposal aims to address reason 2 listed in the justification that has caused Colorado ozone SIPs to be ineffective. We aim to produce a model of ozone over time that gives a better reflection of uncertainties. This model could be used to predict values for years beyond the dataset.
 
 **Proposed Methods**: For this research, we will use datasets found from an analysis of ozone trends in Colorado during the summer from 2000-2015 [@groundozone]. Some methods we may need to execute include: downloading the CSVs for desired sites(particularly Denver Metro Area and northern Front Range), reading in data, creating data frames, joining data frames, testing to see if our data meets assumptions for the models such as normality, creating models (lm), and testing those models. Variables of interest are ozone level, year, and location. The p-value from our model will indicate whether or not there is a significant relationship between year(predictor) and ozone(response). We will use residual plots and R-squared values to assess model fits.
 
@@ -34,7 +34,7 @@ bibliography: references.bib
 
 **Research objective**: We are aiming to model zebra mussel population changes over time in Lake Erie.
 
-**Proposed Methods**: Variables of interest include zebra mussel counts, site ID, and year. We will likely have to join datasets and can use site ID as our join key as long as it is consistent. We found data from 2000-2003 produced by the EPA Great Lakes National Program Office of several sites including different Lake Erie stations [@epagreatlakes]. We also found data from 2009-2012 of zebra mussel populations in Lake Erie at different sample sites [@greatlakesresearch]. If we pursue this proposal, we will need to find recent data (ideally from 2015 and onward) to compare to our older datasets. We expect our models to be exponential given our background research, thus we will need to research models and statistics that can be used for exponential growth. One model that may work is a glm, which would require us to check homogeneity of variance. We can measure the fit using the AIC. The p-value will indicate the significance of the relationship between year(predictor) and population (response). We will only look at Lake Erie for this proposal rather than all of the Great Lakes to reduce the scope.
+**Proposed Methods**: Variables of interest include zebra mussel counts, site ID, and year. We will likely have to join datasets and can use site ID as our join key as long as it is consistent. We found data from 2000-2003 produced by the EPA Great Lakes National Program Office of several sites including different Lake Erie stations [@epagreatlakes]. We also found data from 2009-2012 of zebra mussel populations in Lake Erie at different sample sites [@greatlakesresearch]. If we pursue this proposal, we will need to find recent data (ideally from 2015 and onward) to compare to our older datasets, as we are interested in population changes in Lake Erie from 2000-2025. We expect our models to be exponential given our background research, thus we will need to research models and statistics that can be used for exponential growth. One model that may work is a glm, which would require us to check homogeneity of variance. We can measure the fit using the AIC. The p-value will indicate the significance of the relationship between year(predictor) and population (response). We will only look at Lake Erie for this proposal rather than all of the Great Lakes to reduce the scope.
 
 **Expected Outcomes**: We expect to see exponential growth of zebra mussels over time in Lake Erie. Current populations will likely be significantly higher than populations from the early 2000s.
 
@@ -45,7 +45,7 @@ bibliography: references.bib
 
 **Research question**: How does water pollution in Michigan’s streams and rivers impact surrounding wildlife, and what measures can be taken to reduce negative effects on ecosystem health?
 
-**Proposed Methods**: We will analyze data regarding levels of certain contaminants in bodies of water within/around the Great Lakes in Michigan, evaluating the statistical significance of changes in levels of contaminants as they correspond to ecosystem health (measured with data on designated species populations). 
+**Proposed Methods**: We will analyze data regarding levels of certain contaminants in bodies of water within/around the Great Lakes in Michigan, evaluating the statistical significance (using p-values) of changes in levels of contaminants as they correspond to ecosystem health (measured with data on designated species populations).
 
 **Expected Outcomes**: We expect to see that higher levels of water contaminants corresponds with a decline in ecosystem health, but may foster larger populations of species resistant to certain pollutants. This analysis will hopefully be used to discern effective prevention and rehabilitation methods to preserve the health and quality of surrounding wildlife.
 
@@ -67,7 +67,7 @@ bibliography: references.bib
 
 **Research objective**: My particular research objective is to highlight the effect of introducing a keystone species to a particular ecosystem, and the results of a trophic cascade.
 
-**Proposed Methods**: For this study,  I want to analyze data of additional species within the national park that showed a decline or incline after the introduction of the wolf within its ecosystem.  
+**Proposed Methods**:  For this study,  I want to analyze data of additional species within the national park that showed a decline or incline after the introduction of the wolf within its ecosystem.  This can be conducted through a t-test paired with ANOVA to investigate repeated measures.
 
 **Expected Outcomes**: The expected outcomes of analyzing this data is seeing the indirect effects of reintroducing wolves within an ecosystem and the result of a trophic cascade.
 
@@ -78,7 +78,7 @@ bibliography: references.bib
 
 **Research objective**:  I hope to prove that White-Nose Syndrome continues to be a prevalent hindrance to bat populations within North America.  With this, I think it would be important to generate visual and palatable data for those hoping to understand the scale.  
 
-**Proposed Methods**: To carry out this study,  I intend to gather data sets of bat populations from across North America, and see how it progresses over time.  To be consistent,  I will try and focus on the populations within Myotis lucifugus, since this species ranges all over the US. 
+**Proposed Methods**: To carry out this study,  I intend to gather data sets of bat populations from across North America, and see how it progresses over time.  To be consistent,  I will try and focus on the populations within Myotis lucifugus, since this species ranges all over the US.  This can be conducted with a Linear Model and represented with a gglot2 package. 
 
 **Expected Outcomes**: I expect to see a potential decline in the Myotis bat population over time due to white-nose syndrome. 
 
