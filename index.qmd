@@ -17,39 +17,69 @@ bibliography: references.bib
 csl: apa.csl
 ---
 
-### Directions
-1) Title: Give a short, informative title describing the project.
-
-2) Justification: Write a short paragraph (~150 words) explaining the significance of the project with supporting background information. You must include at least two references (with proper APA citation format) that back up your reasoning for significance. (10 points)
-
-3) Research objective/question/hypothesis: Include the specific objective that you aim to achieve in this study and a testable hypothesis, model or analysis you want to carry out. (5 points)
-
-4) Proposed Methods: Briefly (short paragraph) describe how you plan to carry out your study. Specify the datasets and variables available and needed (try to provide links/citations for your datasets, or a notion of where you will get your data). Each project should integrate at least two data sources! Additionally, describe the scope of your study (e.g., spatial and temporal scale) and the statistical tests you will use to test your hypothesis. (10 points)
-
-5) Expected Outcomes: Based on your research question, describe what you expect to find in the results and the reason such an outcome is important. (5 points)
-
 ### Proposal 1 - Ground Level Ozone Trends in Colorado
-##### Sammy Tetrault
-Justification:
+##### **Sammy Tetrault**
+**Justification**: Section 108 and 109 of the Clean Air Act mandates the creation and implementation of National Ambient Air Quality Standards (NAAQS), which regulate key pollutants to specified acceptable levels. NAAQS is managed by the Environmental Protection Agency (EPA) [@mcclellan]. If a state does not meet these Standards, it is said to be in non-attainment for that Standard. Currently, Colorado is in non-attainment for ozone due to high ozone levels in the Denver Metro Area and in the northern Front Range. Despite Colorado's attempts to implement effective State Implementation Plans (SIPs), the state is still in non-attainment. This is due to a few overarching reasons: 1) invalid emissions inventories, 2) invalid models, and 3) poor organizational structure. Reasons 1 & 2 have resulted in proposed emissions limits to reach attainment that do not achieve this goal [@ozonemanagement]. This highlights a need for new analyses of ozone levels and new models that capture true ozone trends.
 
-Research objective:
-Proposed Methods:
-Expected outcome:
+**Research objective**: This proposal aims to address reasons 1 & 2 listed in the justification that have caused Colorado ozone SIPs to be ineffective. We aim to produce a model of ozone over time that gives a better reflection of uncertainties.
 
-### Proposal 2 - Zebra Mussel Population Changes in Lake Superior
-##### Sammy Tetrault
-This is our next section [@groundozone]
+**Proposed Methods**: For this research, we will use datasets found from an analysis of ozone trends in Colorado during the summer from 2000-2015 [@groundozone]. Some methods we may need to execute include: downloading the CSVs for desired sites(particularly Denver Metro Area and northern Front Range), reading in data, creating data frames, joining data frames, testing to see if our data meets assumptions for the models we decide to try, creating models, and testing those models. Variables of interest are ozone level, year, and location. We will use residual plots and R-squared values to assess model fits.
 
-### Proposal 3 - Huron River Water Pollution Trends
-##### Zoe Gagalis
+**Expected outcome**: We expect to see ozone levels increase over time as Colorado continually fails to reach attainment for ozone. We also expect that our model may include more variability than current models due to accounting for uncertainty. 
+
+### Proposal 2 - Zebra Mussel Population Changes in Lake Erie
+##### **Sammy Tetrault**
+
+**Justification**: Zebra mussels are an invasive species that are native to Russia, but have proliferated fiercely across North America. Zebra mussel populations have been of particular concern in the Great Lakes. Between 1994 and 1996, about 10 years after their introduction, zebra mussel densities were as high as 32,500 zebra mussels per square meter in Lake Erie. Zebra mussels manipulate sedimentary systems, shifting the dynamics of aquatic ecosystems [@zebramud]. Studying how zebra mussel populations have changed over time in Lake Erie can provide further insight to population dynamics, which will help us to understand their range and capacity to invade.
+
+**Research objective**: We are aiming to model zebra mussel population changes over time in Lake Erie.
+
+**Proposed Methods**: Variables of interest include zebra mussel counts, site ID, and year. We will likely have to join datasets and can use site ID as our join key as long as it is consistent. We found data from 2000-2003 produced by the EPA Great Lakes National Program Office of several sites including different Lake Erie stations [@epagreatlakes]. We also found data from 2009-2012 of zebra mussel populations in Lake Erie at different sample sites [@greatlakesresearch]. If we pursue this proposal, we will need to find recent data (ideally from 2015 and onward) to compare to our older datasets. We expect our models to be exponential given our background research, thus we will need to research models and statistics that can be used for exponential growth, as we are currently only familiar with linear modeling. We will only look at Lake Erie for this proposal rather than all of the Great Lakes to reduce the scope.
+
+**Expected Outcomes**: We expect to see exponential growth of zebra mussels over time in Lake Erie. Current populations will likely be significantly higher than populations from the early 2000s.
+
+### Proposal 3 - Water Pollution and the impact on wildlife ecosystems in/around Michigan Lakes and Rivers
+##### **Zoe Gagalis**
+
+**Justification**: [@mink], [@hartig]
+
+**Research objective**:
+
+**Proposed Methods**: 
+
+**Expected Outcomes**: 
 
 ### Proposal 4 - Urban Development LULC Trends in Colorado
-##### Zoe Gagalis
+##### **Zoe Gagalis**
+
+**Justification**: [@streamecosystems], [@coloradoriverbasin]
+
+**Research objective**:
+
+**Proposed Methods**: 
+
+**Expected Outcomes**: 
 
 ### Proposal 5 - Biodiversity Trends After Wolf Reintroduction in Yellowstone
-##### Zoe Ellis
+##### **Zoe Ellis**
+
+**Justification**: After the reintroduction of wolves (Canis lupus) to Yellowstone National Park in Wyoming, there was an immediate effect on their surrounding ecosystem.  (Ripple) These effects were observed as a trophic cascade, and stood as a phenomenal example of a keystone species and its relationships with the surrounding food web.  (Ripple) Developing and analyzing this data could aid in creating a palatable and communicative reference for others outside of the park.  Colorado is experimenting with their own reintroduction of the grey wolf, and displaying the data could provide further information for the state.  This could also serve as additional data for reintroducing keystone species outside of Colorado and the National Parks.
+
+**Research objective**: My particular research objective is to highlight the effect of introducing a keystone species to a particular ecosystem, and the results of a trophic cascade.
+
+**Proposed Methods**: For this study,  I want to analyze data of additional species within the national park that showed a decline or incline after the introduction of the wolf within its ecosystem.  
+
+**Expected Outcomes**: 
 
 ### Proposal 6 - White Nose Syndrome in Bats Trends in the US
-##### Zoe Ellis
+##### **Zoe Ellis**
+
+**Justification**: Bats in North America and more importantly, the globe, are a crucial species that has had detrimental damage done to their population numbers from white-nose syndrome.  White-nose syndrome is a disease that was carried overseas, compromising 5 million bats since its first encounter. (Celley) Bats serve a very important role within the ecosystem, and with their decline, it is expected to have other species fall alongside.  These flying mammals are capable of crossing large chunks of land, making them extremely efficient pollinators and seed dispersers. (NPS) Their main diet consists of fruit, and what sets them apart from other mammals is that they are able to disperse seeds much more effectively, and account for over 95% of early growth for rainforests.   They are also wonderful at their job of pest control, and are estimated to save farmers 1 billion dollars every year from their efforts.  (Celley) The concern with white-nose syndrome is that it is typically contracted when the bats are in their most vulnerable state: hibernation. 
+
+**Research objective**:  I hope to prove that White-Nose Syndrome continues to be a prevalent hindrance to bat populations within North America.  With this, I think it would be important to generate visual and palatable data for those hoping to understand the scale.  
+
+**Proposed Methods**: To carry out this study,  I intend to gather data sets of bat populations from across North America, and see how it progresses over time.  To be consistent,  I will try and focus on the populations within Myotis lucifugus, since this species ranges all over the US. 
+
+**Expected Outcomes**: I expect to see a potential decline in the Myotis bat population over time due to white-nose syndrome. 
 
 ## Bibliography
