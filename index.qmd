@@ -41,7 +41,7 @@ csl: apa.csl
 ### Proposal 3 - Water Pollution and the impact on wildlife ecosystems in/around Michigan Lakes and Rivers
 ##### **Zoe Gagalis**
 
-**Justification**: [@mink], [@hartig]
+**Justification**: [@giesy], [@hartig]
 
 **Research objective**:
 
@@ -52,7 +52,7 @@ csl: apa.csl
 ### Proposal 4 - Urban Development LULC Trends in Colorado
 ##### **Zoe Gagalis**
 
-**Justification**: [@streamecosystems], [@coloradoriverbasin]
+**Justification**: [@sprague], [@wang]
 
 **Research objective**:
 
