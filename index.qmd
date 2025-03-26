@@ -13,8 +13,8 @@ authors:
     affiliation: CSU
     roles: writing
     corresponding: true
-bibliography: references.bib
 csl: apa.csl
+bibliography: references.bib
 ---
 
 ### Proposal 1 - Ground Level Ozone Trends in Colorado
@@ -41,40 +41,40 @@ csl: apa.csl
 ### Proposal 3 - Water Pollution and the impact on wildlife ecosystems in/around Michigan Lakes and Rivers
 ##### **Zoe Gagalis**
 
-**Justification**: [@giesy], [@hartig]
+**Justification**: River and lake pollution from various sources (chemical dumping, agricultural runoff, etc.) in areas surrounding the Great Lakes poses an important issue when it comes to preserving the ecosystems in these areas, as well as water quality and safety for recreation in the natural bodies of water. Water management tactics like the construction of hydroelectric dams in Michigan have been linked to negative impacts on wildlife, in part due to exposure of halogenic hydrocarbons and other water contaminants like PCBs [@giesy]. Satellite data has also shown extensive habitat loss in these riparian ecosystems, stemming from development and the associated pollution to bodies of water [@hartig]. It is important to understand and track these changes in order to know what measures can be taken to decrease water pollution, therefore protecting native ecosystems.
 
-**Research objective**:
+**Research question**: How does water pollution in Michigan’s streams and rivers impact surrounding wildlife, and what measures can be taken to reduce negative effects on ecosystem health?
 
-**Proposed Methods**: 
+**Proposed Methods**: We will analyze data regarding levels of certain contaminants in bodies of water within/around the Great Lakes in Michigan, evaluating the statistical significance of changes in levels of contaminants as they correspond to ecosystem health (measured with data on designated species populations). 
 
-**Expected Outcomes**: 
+**Expected Outcomes**: We expect to see that higher levels of water contaminants corresponds with a decline in ecosystem health, but may foster larger populations of species resistant to certain pollutants. This analysis will hopefully be used to discern effective prevention and rehabilitation methods to preserve the health and quality of surrounding wildlife.
 
 ### Proposal 4 - Urban Development LULC Trends in Colorado
 ##### **Zoe Gagalis**
 
-**Justification**: [@sprague], [@wang]
+**Justification**:  This study will be used to understand the effects of urban development on ecosystems and biogeochemistry in the Rocky Mountain region of the United States, in the Colorado River Basin. Previous data has shown impacts like habitat loss and soil nutrient loss in areas that have become highly developed, sometimes corresponding with rapid population growth [@sprague] and [@wang]. We hope to better understand how impacts of population growth and rapid urbanization affect wildlife, especially surrounding rivers, climate and environmental conditions, species populations, and what continued development might mean for surrounding ecosystems.
 
-**Research objective**:
+**Research question**: How has urban development in the Colorado River Basin affected wildlife and environmental conditions?
 
-**Proposed Methods**: 
+**Proposed Methods**: We will use satellite data showing urban development along with species population counts and climate data to represent environmental changes associated with urbanization. Using these different data categories in conjunction, we hope to evaluate what changes have been caused by specific determinants using tests like ANOVA to show differences between environments.
 
-**Expected Outcomes**: 
+**Expected Outcomes**: We suspect that we will find increased urban development to be associated with a decline in ecosystem health, and that as areas become more populated, habitat loss will increase accompanied by decreases in certain species populations.
 
-### Proposal 5 - Biodiversity Trends After Wolf Reintroduction in Yellowstone
+### Proposal 5 -  Biodiversity and Wolf Populations within Yellowstone National Park
 ##### **Zoe Ellis**
 
-**Justification**: After the reintroduction of wolves (Canis lupus) to Yellowstone National Park in Wyoming, there was an immediate effect on their surrounding ecosystem.  (Ripple) These effects were observed as a trophic cascade, and stood as a phenomenal example of a keystone species and its relationships with the surrounding food web.  (Ripple) Developing and analyzing this data could aid in creating a palatable and communicative reference for others outside of the park.  Colorado is experimenting with their own reintroduction of the grey wolf, and displaying the data could provide further information for the state.  This could also serve as additional data for reintroducing keystone species outside of Colorado and the National Parks.
+**Justification**: After the reintroduction of wolves (Canis lupus) to Yellowstone National Park in Wyoming, there was an immediate effect on their surrounding ecosystem [@ripple2012]. These effects were observed as a trophic cascade, and stood as a phenomenal example of a keystone species and its relationships with the surrounding food web [@ripple2025]. Developing and analyzing this data could aid in creating a palatable and communicative reference for others outside of the park.  Colorado is experimenting with their own reintroduction of the grey wolf, and displaying the data could provide further information for the state.  This could also serve as additional data for reintroducing keystone species outside of Colorado and the National Parks.
 
 **Research objective**: My particular research objective is to highlight the effect of introducing a keystone species to a particular ecosystem, and the results of a trophic cascade.
 
 **Proposed Methods**: For this study,  I want to analyze data of additional species within the national park that showed a decline or incline after the introduction of the wolf within its ecosystem.  
 
-**Expected Outcomes**: 
+**Expected Outcomes**: The expected outcomes of analyzing this data is seeing the indirect effects of reintroducing wolves within an ecosystem and the result of a trophic cascade.
 
-### Proposal 6 - White Nose Syndrome in Bats Trends in the US
+### Proposal 6 - White-Nose Syndrome’s Affect on Bat Species
 ##### **Zoe Ellis**
 
-**Justification**: Bats in North America and more importantly, the globe, are a crucial species that has had detrimental damage done to their population numbers from white-nose syndrome.  White-nose syndrome is a disease that was carried overseas, compromising 5 million bats since its first encounter. (Celley) Bats serve a very important role within the ecosystem, and with their decline, it is expected to have other species fall alongside.  These flying mammals are capable of crossing large chunks of land, making them extremely efficient pollinators and seed dispersers. (NPS) Their main diet consists of fruit, and what sets them apart from other mammals is that they are able to disperse seeds much more effectively, and account for over 95% of early growth for rainforests.   They are also wonderful at their job of pest control, and are estimated to save farmers 1 billion dollars every year from their efforts.  (Celley) The concern with white-nose syndrome is that it is typically contracted when the bats are in their most vulnerable state: hibernation. 
+**Justification**: Bats in North America and more importantly, the globe, are a crucial species that has had detrimental damage done to their population numbers from white-nose syndrome.  White-nose syndrome is a disease that was carried overseas, compromising 5 million bats since its first encounter [@dzal2011]. Bats serve a very important role within the ecosystem, and with their decline, it is expected to have other species fall alongside.  These flying mammals are capable of crossing large chunks of land, making them extremely efficient pollinators and seed dispersers [@frank2019]. Their main diet consists of fruit, and what sets them apart from other mammals is that they are able to disperse seeds much more effectively, and account for over 95% of early growth for rainforests.   They are also wonderful at their job of pest control, and are estimated to save farmers 1 billion dollars every year from their efforts [@frank2019]. The concern with white-nose syndrome is that it is typically contracted when the bats are in their most vulnerable state: hibernation. 
 
 **Research objective**:  I hope to prove that White-Nose Syndrome continues to be a prevalent hindrance to bat populations within North America.  With this, I think it would be important to generate visual and palatable data for those hoping to understand the scale.  
 
